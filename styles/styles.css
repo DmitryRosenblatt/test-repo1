@@ -53,7 +53,8 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 70%;
-  margin: 0px 30px;
+  height: 100%;
+  margin: 0px 0px 0px 50px;
   padding-top: 60px;
   padding-bottom: 200px;
   padding-right: 0px;
@@ -61,14 +62,19 @@ main {
 }
 
 main div {
+  margin-top: 10px;
   background: #fdd5f8;
-  padding: 70px 50px;
+  padding: 90px 70px;
 }
 
 aside {
-  width: 30%;
+  width: 20%;
   padding: 0px;
-  margin: 0px;
+  margin: 0px 50px 0px 30px;
+  background: #fdd5f8;
+}
+
+.asidetabs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,12 +85,16 @@ aside {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  background: #fdd5f8;
+  margin-top: 30px;
 }
 
-aside p {
-  padding: 0px 5px;
-  margin: 0px;
+.asidetabs p {
+  text-align: center;
+  padding: 15px 0px;
+  margin: 10px 30px;
   background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 2px rgba(19, 28, 45, 0.2);
+          box-shadow: 0px 3px 2px rgba(19, 28, 45, 0.2);
 }
 /*# sourceMappingURL=styles.css.map */
