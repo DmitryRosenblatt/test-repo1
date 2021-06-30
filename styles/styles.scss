@@ -4,6 +4,7 @@ body {
     background: #a6bff8;
     margin: 0px;
     font-family: "Roboto", sans-serif;
+    color: #131c2d;
 }
 
 nav {
@@ -17,22 +18,51 @@ nav p {
     padding: 10px 30px;
 }
 
+.home {
+    margin-right: auto;
+}
+
 .header {
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-weight: normal;
+    padding: 10px 0px;
+}
+
+.container {
+    display: flex;
 }
 
 main {
     background: #f4f0b1;
     display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0px 30px;
+    padding-top: 60px;
+    padding-bottom: 200px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+main div {
+    background: $pinkBackground;
+    padding: 70px 50px;
 }
 
 aside {
+    width: 30%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
     background: $pinkBackground;
 }
 
-.home {
-    margin-right: auto;
+aside p {
+    padding: 0px 5px;
+    margin: 0px;
+    background: #fff;
 }
